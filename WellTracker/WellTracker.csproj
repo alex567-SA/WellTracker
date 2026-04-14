@@ -70,6 +70,12 @@
     <Compile Include="AppForms\MealLogForm.Designer.cs">
       <DependentUpon>MealLogForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AppForms\ParentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppForms\ParentForm.Designer.cs">
+      <DependentUpon>ParentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AppForms\ProfileEditForm.cs">
       <SubType>Form</SubType>
     </Compile>

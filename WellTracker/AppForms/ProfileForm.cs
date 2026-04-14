@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WellTracker.AppForms
 {
-    public partial class ProfileForm : Form
+    public partial class ProfileForm : ParentForm
     {
         public ProfileForm()
         {

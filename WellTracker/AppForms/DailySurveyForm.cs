@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WellTracker.AppForms;
 
 namespace WellTracker
 {
-    public partial class DailySurveyForm : Form
+    public partial class DailySurveyForm : ParentForm
     {
         public DailySurveyForm()
         {
