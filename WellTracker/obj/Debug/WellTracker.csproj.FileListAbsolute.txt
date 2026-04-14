@@ -20,3 +20,8 @@ C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\obj\
 C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\obj\Debug\WellTracker.exe
 C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\obj\Debug\WellTracker.pdb
 C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\obj\Debug\WellTracker.exe.config
+C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Курсовой проект\WellTracker\WellTracker\obj\Debug\WellTrac.FF72FC1E.Up2Date

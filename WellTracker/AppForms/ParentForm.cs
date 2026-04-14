@@ -27,14 +27,30 @@ namespace WellTracker.AppForms
             // Шрифт по умолчанию
             this.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
 
-            // Запрет изменения размера (опционально)
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.WindowState = FormWindowState.Maximized;
+            this.StartPosition = FormStartPosition.Manual;
+            this.Bounds = Screen.PrimaryScreen.Bounds;
         }
 
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
             ApplyTheme(this);
+            CenterAllLabels(this);
+        }
+
+        private void CenterAllLabels(Control parent)
+        {
+            foreach (Control c in parent.Controls)
+            {
+                if (c is Label lbl)
+                {
+                    lbl.TextAlign = ContentAlignment.MiddleCenter;
+                    lbl.AutoSize = true; 
+                }
+                if (c.HasChildren)
+                    CenterAllLabels(c);
+            }
         }
 
         private void ApplyTheme(Control parent)
